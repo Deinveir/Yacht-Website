@@ -1,0 +1,25 @@
+.navbar-container{
+  margin-top: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar-container .row{
+  padding: 10px 20px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.75);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container .navbar-nav ul{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-container .navbar-nav ul li{
+  font-size: 19px;
+  font-weight: 500;
+}
