@@ -1,9 +1,12 @@
 import React from 'react'
 import "./Hero.css"
+import Hero_Bg from "../assets/img/Yacht_Home_Hero.jpg"
 
 const Hero = () => {
   return (
-    <div className='hero-container light'>
+    <div className='hero-container light' style={{
+      background : `linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 90%, rgba(255,255,255,1) 95%), url("${Hero_Bg}") no-repeat center/cover`
+    }}>
       <div className='container'>
         <div className='row'>
           <div className='column'>
