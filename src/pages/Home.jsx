@@ -4,6 +4,7 @@ import App from '../App.jsx'
 import Hero from '../components/Hero.jsx'
 
 import Yacht_Sketch from "../assets/img/Yacht_Home_Sketch.jpg"
+import Grid_Slider from '../components/Grid_Slider.jsx'
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         </div>
         <div className='features-container'>
           <div className='container'>
-          <div className='row row-2'>
+            <div className='row row-2'>
               <div className='column'>
                 <div className='grid-container'>
                   <ul>
@@ -52,6 +53,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <Grid_Slider/>
       </App>
     </div>
   )
