@@ -19,8 +19,13 @@
   width: 50%;
 }
 
+.about-container .row .column-right{
+  width: 600px;
+}
+
 .about-container .column .text{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .about-container .column img{

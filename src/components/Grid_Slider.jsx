@@ -5,7 +5,6 @@ import { products } from '../assets/data/products.jsx'
 import Background_Img from "../assets/img/Yacht_Home_Featured-Products-Bg.jpg"
 import Slide_Next from "../assets/img/Icon_Slide-Next.svg"
 import Slide_Prev from "../assets/img/Icon_Slide-Prev.svg"
-import Yacht_Featured from "../assets/img/Yacht-Home-Featured-Products.png"
 
 const Grid_Slider = () => {
   const [sliderIndex, setSliderIndex] = useState(null);
@@ -25,19 +24,14 @@ const Grid_Slider = () => {
   }
 
   return (
-    <div className='grid-slider-container' style={{
-      background : 
-      `linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 95%, rgba(255, 255, 255, 1) 100%),
-      linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%),
-      url("${Background_Img}") no-repeat top/cover`
-    }}>
-      <div className='container light'>
+    <div className='grid-slider-container'>
+      <div className='container'>
         <div className='row'>
           <div className='column column-left'>
-            <h2 className='heading-h1'>Our Premium Boats</h2>
+            <h2 className='heading-h1'>Sailing In For Every Occasion</h2>
           </div>
           <div className='column column-right'>
-            <a href="" className='btn btn-primary-inverse'>Discover More</a>
+            <a href="" className='btn btn-primary'>Discover More</a>
           </div>
         </div>
         <div className='row'>
@@ -82,22 +76,6 @@ const Grid_Slider = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className='row yacht-row'>
-          <h2 className='heading-h2'>Featured Yachts</h2>
-          <div className='yacht-container'>
-            <div className='column column-left'>
-              <div>Category</div>
-              <h3 className='heading-h3'>Boat Name</h3>
-              <p className='text'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-              </p>
-            </div>
-            <div className='column column-center'>
-              <img src={Yacht_Featured} alt="" />
-            </div>
-            <div className='column column-right'></div>
           </div>
         </div>
       </div>

@@ -55,7 +55,7 @@ html, body, #root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   letter-spacing: 1px;
 }
 
@@ -73,8 +73,16 @@ a{
   text-decoration: none;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
+.hprimary{
+  color: #01A3C9 !important;
+}
+
 .htertiary{
-  color: #B1947B;
+  color: #B1947B !important;
 }
 
 .text-link {

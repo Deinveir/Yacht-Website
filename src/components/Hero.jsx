@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Hero.css"
-import Hero_Bg from "../assets/img/Yacht_Home_Hero.jpg"
+import Hero_Bg from "../assets/img/Yacht-Home-Hero.jpg"
 
 const Hero = () => {
   return (
     <div className='hero-container light' style={{
-      background : `linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 90%, rgba(255,255,255,1) 95%), url("${Hero_Bg}") no-repeat center/cover`
+      background : `linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 95%, rgba(0,0,0,1) 100%), url("${Hero_Bg}") no-repeat center/cover`
     }}>
       <div className='container'>
         <div className='row'>
