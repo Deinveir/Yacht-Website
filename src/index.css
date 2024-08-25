@@ -38,6 +38,13 @@ html, body, #root {
   line-height: 1.2;
 }
 
+.heading-h32{
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
 .heading-h3{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -167,15 +174,15 @@ a{
 }
 
 .btn-default{
-  border: 2px solid #005C4A;
-  color: #005C4A;
+  border: 2px solid #0E1F25;
+  color: #0E1F25;
   background: transparent;
 }
 
 .btn-default:hover{
-  border: 2px solid #005C4A;
-  color: #005C4A;
-  background: #005c4a7c;
+  border: 2px solid #0E1F25;
+  color: #0E1F25;
+  background: #B9E2F8;
 }
 
 .btn-default-inverse{

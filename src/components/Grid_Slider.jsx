@@ -31,7 +31,7 @@ const Grid_Slider = () => {
             <h2 className='heading-h1'>Sailing In For Every Occasion</h2>
           </div>
           <div className='column column-right'>
-            <a href="" className='btn btn-primary'>Discover More</a>
+            <a href="" className='btn btn-default'>Discover More</a>
           </div>
         </div>
         <div className='row'>
@@ -47,14 +47,9 @@ const Grid_Slider = () => {
                       <img src={product.imageId} alt="" />
                       {console.log(product.imageId)}
                     </div>
-                    <div className='caption'>
+                    <div className='caption light'>
+                      <h3 className='heading-h32'>{product.name}</h3>
                       <div className='category'>{product.category}</div>
-                      <h3 className='heading-h3'>{product.name}</h3>
-                      <ul className='attributes'>
-                        {product.attributes.map((item, index) => {
-                          return <li key={index}>{item}</li>
-                        })}
-                      </ul>
                     </div>
                   </li>
                   )

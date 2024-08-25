@@ -7,10 +7,15 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import Yacht_Featured from "../assets/img/Yacht-Home-Featured-Products.png"
 import Slideshow from './Slideshow';
+import Background_Img from "../assets/img/Yacht_Home_Featured-Products-Bg.jpg"
 
 const Slider_Up = () => {
   return (
-    <div className='slider-up-container'>
+    <div className='slider-up-container' style={{
+      background : 
+      `linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url("${Background_Img}") no-repeat bottom/cover`
+    }}>
       <div className='container light'>
         <div className='row yacht-row'>
             <h2 className='heading-h1'>Featured Yachts</h2>

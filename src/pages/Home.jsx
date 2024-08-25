@@ -3,9 +3,8 @@ import "./Home.css"
 import App from '../App.jsx'
 import Hero from '../components/Hero.jsx'
 
-import Yacht_Sketch from "../assets/img/Yacht_Home_Sketch.png"
+import Yacht_Sketch from "../assets/img/Yacht_Home_Sketch.jpg"
 import Grid_Slider from '../components/Grid_Slider.jsx'
-import Background_Img from "../assets/img/Yacht_Home_Featured-Products-Bg.jpg"
 import Slider_Up from '../components/Slider_Up.jsx'
 
 const Home = () => {
@@ -13,12 +12,8 @@ const Home = () => {
     <div>
       <App>
         <Hero/>
-        <div className='deep-water-bg' style={{
-            background : 
-            `linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.2) 100%),
-            url("${Background_Img}") no-repeat bottom/cover`
-          }}>
-          <div className='about-container padding-default light'>
+        <div className='deep-water-bg'>
+          <div className='about-container padding-default'>
             <div className='container'>
               <div className='row'>
                 <div className='column column-left'>
@@ -60,8 +55,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <Slider_Up/>
         </div>
+        <Slider_Up/>
         <Grid_Slider/>
       </App>
     </div>

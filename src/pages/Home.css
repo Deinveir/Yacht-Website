@@ -39,13 +39,28 @@
   padding: 40px 0 100px 0;
 }
 
+.features-container .container{
+  overflow: visible;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .features-container ul{
   display: flex;
   list-style: none;
   gap: 40px;
   justify-content: space-between;
+  background: #fff;
 }
 
 .features-container ul li *{
   text-align: center;
+}
+
+.features-container ul li h3{
+  line-height: 1;
+}
+
+.features-container ul li p{
+  color: #0E1F25;
 }

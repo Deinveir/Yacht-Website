@@ -5,7 +5,7 @@ import Hero_Bg from "../assets/img/Yacht-Home-Hero.jpg"
 const Hero = () => {
   return (
     <div className='hero-container light' style={{
-      background : `linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 95%, rgba(0,0,0,1) 100%), url("${Hero_Bg}") no-repeat center/cover`
+      background : `linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.5) 90%, rgba(0,0,0,1) 99%), url("${Hero_Bg}") no-repeat 50% bottom/cover`
     }}>
       <div className='container'>
         <div className='row'>
